@@ -1,27 +1,35 @@
-# Spod App
 
-Spod is an android application which allow user to book a sport venue from anywhere at anytime using mobile phone. This project was created using the Flutter Framework. 
+Bắt đầu
+Để bắt đầu với ứng dụng, hãy làm theo các bước đơn giản sau:
 
+Sao chép kho lưu trữ Git
+bản sao git https://https://github.com/Hieuromm/cuoiky
+Chạy dự án Flutter
+Hãy đảm bảo bạn đã cài đặt Flutter. Nếu không, bạn có thể làm theo hướng dẫn trên Flutter.dev để cài đặt nó trên máy của mình.
 
-<div align="center">
+Điều hướng đến thư mục dự án bằng thiết bị đầu cuối.
 
+Chạy lệnh sau để tìm nạp các phần phụ thuộc:
 
-[![Downloads](https://PlayBadges.pavi2410.me/badge/downloads?id=com.mikirinkode.spod)](https://play.google.com/store/apps/details?id=com.mikirinkode.spod)
- [![Version](https://img.shields.io/github/v/release/mikirinkode/sports_venue_booking_app?include_prereleases&sort=semver)](https://github.com/mikirinkode/sports_venue_booking_app/releases/latest)
+flutter pub get
 
+Sau khi tìm nạp các phần phụ thuộc, hãy chạy ứng dụng trên thiết bị ưa thích của bạn bằng cách sử dụng:
 
-[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-      alt='Get it on Google Play'
-      height="80">](https://play.google.com/store/apps/details?id=com.mikirinkode.spod)
+flutter run
 
-<div align="left">
+Ứng dụng hiện sẽ chạy trên thiết bị/trình mô phỏng của bạn.
+
+Screenshots
+### Preview
+![image](https://github.com/user-attachments/assets/3384067d-b5be-47e2-b50e-0dbc25ba5beb)
+![image](https://github.com/user-attachments/assets/f25e2afb-cd77-4a30-a401-79cc529bcabc)
+![image](https://github.com/user-attachments/assets/9398d6bb-da2e-4816-ba3e-964bac8ad389)
+![image](https://github.com/user-attachments/assets/3d39bce6-40c4-4c66-9e26-8de10386fefe)
+![image](https://github.com/user-attachments/assets/10af591f-8504-4535-b528-f21ee18ac7b6)
+![image](https://github.com/user-attachments/assets/1ccc8503-fe5b-4b65-a235-1aace16244a3)
+
 
 ### Note
-- Some Feature are still unimplemented
-- The app is using a Dummy Data (Fake Data)
-- All images of sports venue in the application are not mine, but I also include the author of each image in the app
-
-### Preview
-<img src="https://raw.githubusercontent.com/mikirinkode/sports_field_booking_app/master/assets/spod_showcase_1.png" alt="Preview 1">
-<br>
-<img src="https://raw.githubusercontent.com/mikirinkode/sports_field_booking_app/master/assets/spod_showcase_2.png" alt="Preview 2">
+- Một số tính năng vẫn chưa được triển khai
+- Ứng dụng đang sử dụng Dữ liệu giả (Dữ liệu giả)
+- Tất cả hình ảnh về địa điểm thể thao trong ứng dụng không phải của tôi, nhưng tôi cũng đưa tác giả của từng hình ảnh vào ứng dụng
